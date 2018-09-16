@@ -1,6 +1,6 @@
 baseurl = "https://wickedchicken.github.io"
 title = "Outer Haven"
-copyright = "Copyright (c) 2018, all rights reserved."
+copyright = "Copyright (c) 2018, all rights reserved. Theme based on <a href=\"https://github.com/gyorb/hugo-dusk\">hugo-dusk</a>."
 canonifyurls = true
 languageCode = "en-US"
 paginate = 3
