@@ -41,7 +41,7 @@ pygmentsCodeFences = true
 
 [params.colors]
   # hugo-dusk colors
-  background = "#2A2C05" # background color for the site
+  background = "#202024" # background color for the site
   main = "#B7521E"
   text = "#EFE0B9"
   code-quote-bg = "#643B0F" # background color for quotes and code blocks
