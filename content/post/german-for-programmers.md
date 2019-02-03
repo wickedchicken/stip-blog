@@ -192,17 +192,17 @@ causes its own problems, even the declination rules themselves can take time to
 learn. The advantage of having declined articles is that subject/object order
 isn't fixed.
 
-For example, take the English sentence "The man throws the ball to the dog."
+For example, take the English sentence "The man gives the ball to the dog."
 There's no way to rearrange the sentence to have the same meaning without adding
-extra punctuation or words -- "the ball throws the dog to the man" has a
+extra punctuation or words -- "the ball gives the dog to the man" has a
 completely different meaning. The best you can do is maybe "to the dog, the man
-throws the ball" but that extra comma changes the structure a bit. In German,
+gives the ball" but that extra comma changes the structure a bit. In German,
 all three nouns are masculine and would nominally be _der Mann_, _der Ball_, and
 _der Hund_. However, each _der_ changes whether the word is a subject
 (_Nominativ_), direct object (_Akkusativ_), or indirect object (_Dativ_).
-This means that the above sentence in German could be "Der Mann schickt dem Hund
-den Ball" (I'm using _schicken_, "to send," here because it makes the grammar
-simpler). Because each "the" is declined (_der_, _den_, and _dem_), German
+This means that the above sentence in German could be "Der Mann gibt dem Hund
+den Ball"
+Because each "the" is declined (_der_, _den_, and _dem_), German
 allows you to be more flexible with where you put your subjects and objects
 around the verb.
 
@@ -210,9 +210,9 @@ There are [additional rules around object placement][word-order] which restrict
 some permutations, so ultimately it's possible to write the same sentence three
 ways:
 
-1. "Der Mann schickt dem Hund den Ball."
-1. "Den Ball schickt der Mann dem Hund."
-1. "Dem Hund schickt der Mann den Ball."
+1. "Der Mann gibt dem Hund den Ball."
+1. "Den Ball gibt der Mann dem Hund."
+1. "Dem Hund gibt der Mann den Ball."
 
 Each way can be used to emphasize a different object, but they all mean the same
 grammatically.
@@ -226,28 +226,28 @@ order[^kwarg-ordering], but the price is that you have to refer to them by
 keyword:
 
 ```python
-def ball_thrower_pos(subject, direct_object, indirect_object):
+def ball_giver_pos(subject, direct_object, indirect_object):
     """This uses English-style positional ordering."""
-    print(f'The {subject} throws the {direct_object} to the {indirect_object}.')
+    print(f'The {subject} gives the {direct_object} to the {indirect_object}.')
 
 
-def ball_thrower_kwargs(**kwargs):
+def ball_giver_kwargs(**kwargs):
     """This uses Germanish free-form keyword ordering."""
     subject = kwargs['subject']
     direct_object = kwargs['direct_object']
     indirect_object = kwargs['indirect_object']
-    print(f'The {subject} throws the {direct_object} to the {indirect_object}.')
+    print(f'The {subject} gives the {direct_object} to the {indirect_object}.')
 
 
 # These print the same thing
-ball_thrower_pos('man', 'ball', 'dog')
-ball_thrower_kwargs(subject='man', direct_object='ball', indirect_object='dog')
-ball_thrower_kwargs(direct_object='ball', indirect_object='dog', subject='man')
-ball_thrower_kwargs(indirect_object='dog', subject='man', direct_object='ball')
-ball_thrower_kwargs(subject='man', indirect_object='dog', direct_object='ball')
+ball_giver_pos('man', 'ball', 'dog')
+ball_giver_kwargs(subject='man', direct_object='ball', indirect_object='dog')
+ball_giver_kwargs(direct_object='ball', indirect_object='dog', subject='man')
+ball_giver_kwargs(indirect_object='dog', subject='man', direct_object='ball')
+ball_giver_kwargs(subject='man', indirect_object='dog', direct_object='ball')
 
 # This does *not* print the same thing
-ball_thrower_pos('ball', 'man', 'dog')
+ball_giver_pos('ball', 'man', 'dog')
 ```
 
 Note how the positional one loses functionality but requires less typing. You
