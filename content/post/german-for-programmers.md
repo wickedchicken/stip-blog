@@ -226,25 +226,25 @@ order[^kwarg-ordering], but the price is that you have to refer to them by
 keyword:
 
 ```python
-def ball_thrower_pos(thrower, thrown_object, receiver):
+def ball_thrower_pos(subject, direct_object, indirect_object):
     """This uses English-style positional ordering."""
-    print(f'The {thrower} throws the {thrown_object} to the {receiver}.')
+    print(f'The {subject} throws the {direct_object} to the {indirect_object}.')
 
 
 def ball_thrower_kwargs(**kwargs):
     """This uses Germanish free-form keyword ordering."""
-    thrower = kwargs['thrower']
-    thrown_object = kwargs['thrown_object']
-    receiver = kwargs['receiver']
-    print(f'The {thrower} throws the {thrown_object} to the {receiver}.')
+    subject = kwargs['subject']
+    direct_object = kwargs['direct_object']
+    indirect_object = kwargs['indirect_object']
+    print(f'The {subject} throws the {direct_object} to the {indirect_object}.')
 
 
 # These print the same thing
 ball_thrower_pos('man', 'ball', 'dog')
-ball_thrower_kwargs(thrower='man', thrown_object='ball', receiver='dog')
-ball_thrower_kwargs(thrown_object='ball', receiver='dog', thrower='man')
-ball_thrower_kwargs(receiver='dog', thrower='man', thrown_object='ball')
-ball_thrower_kwargs(thrower='man', receiver='dog', thrown_object='ball')
+ball_thrower_kwargs(subject='man', direct_object='ball', indirect_object='dog')
+ball_thrower_kwargs(direct_object='ball', indirect_object='dog', subject='man')
+ball_thrower_kwargs(indirect_object='dog', subject='man', direct_object='ball')
+ball_thrower_kwargs(subject='man', indirect_object='dog', direct_object='ball')
 
 # This does *not* print the same thing
 ball_thrower_pos('ball', 'man', 'dog')
