@@ -164,7 +164,7 @@ consider "light blue" to be a basic color term than English speakers would:
 
 Just as our word "blue" covers both "blue" and "light-blue" in Japanese[^teal],
 so do English prepositions cover a different "semantic space" than German
-preopsitions. Take _bei_: according to [Pons][pons-bei], depending on the
+prepositions. Take _bei_: according to [Pons][pons-bei], depending on the
 situation _bei_ can function like the English prepositions with, for, in, to,
 near, by, among, and during. Talk about multi-purpose!
 [_auf_][pons-auf] has the same problem, and it doesn't help that _auf_ is one
@@ -201,7 +201,7 @@ all three nouns are masculine and would nominally be _der Mann_, _der Ball_, and
 _der Hund_. However, each _der_ changes whether the word is a subject
 (_Nominativ_), direct object (_Akkusativ_), or indirect object (_Dativ_).
 This means that the above sentence in German could be "Der Mann gibt dem Hund
-den Ball"
+den Ball."
 Because each "the" is declined (_der_, _den_, and _dem_), German
 allows you to be more flexible with where you put your subjects and objects
 around the verb.
