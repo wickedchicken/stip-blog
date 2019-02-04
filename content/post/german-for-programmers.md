@@ -329,7 +329,7 @@ so forcing the important bits up front just seems helpful.
 [^kwargs]: `kwargs` is pronounced like the fictional word "quargs," and any
     other pronunciation is incorrect.
 
-[^other-lang-context]: Other langauges have constructs like this. Go has
+[^other-lang-context]: Other languages have constructs like this. Go has
     [defer][go-defer], Rust has [scopeguard][scopeguard], C++ has
     [RAII][raii], and Scheme has [call-with-input-file][call-with-input-file].
 
