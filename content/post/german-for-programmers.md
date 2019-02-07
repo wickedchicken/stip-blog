@@ -126,7 +126,7 @@ Theoretically this can go even further, although it becomes quite complicated to
 parse. Generously contributed by [Matthias Görner][matthias], the sentence
 "Ich stimme dem
 Maler, der die Meinung, dass Rot keine Farbe ist, vertritt, zu" layers a
-_trennvares Verb_ (_zustimmen_), a relative clause (_der ... vertritt_), and a
+_trennbares Verb_ (_zustimmen_), a relative clause (_der ... vertritt_), and a
 dependent clause (_dass ... ist_) to demonstrate the LIFO ordering. The
 translation is "I agree with the painter, who represents the opinion that red is
 not a color."
@@ -168,7 +168,7 @@ prepositions. Take _bei_: according to [Pons][pons-bei], depending on the
 situation _bei_ can function like the English prepositions with, for, in, to,
 near, by, among, and during. Talk about multi-purpose!
 [_auf_][pons-auf] has the same problem, and it doesn't help that _auf_ is one
-of the preopsitions that [change meaning][two-cases] depending on which case
+of the prepositions that [change meaning][two-cases] depending on which case
 it's used with.
 
 This became infuriating as I would memorize the translation given by the
@@ -226,12 +226,12 @@ order[^kwarg-ordering], but the price is that you have to refer to them by
 keyword:
 
 ```python
-def ball_giver_pos(subject, direct_object, indirect_object):
+def giver_pos(subject, direct_object, indirect_object):
     """This uses English-style positional ordering."""
     print(f'The {subject} gives the {direct_object} to the {indirect_object}.')
 
 
-def ball_giver_kwargs(**kwargs):
+def giver_kwargs(**kwargs):
     """This uses Germanish free-form keyword ordering."""
     subject = kwargs['subject']
     direct_object = kwargs['direct_object']
@@ -240,14 +240,14 @@ def ball_giver_kwargs(**kwargs):
 
 
 # These print the same thing
-ball_giver_pos('man', 'ball', 'dog')
-ball_giver_kwargs(subject='man', direct_object='ball', indirect_object='dog')
-ball_giver_kwargs(direct_object='ball', indirect_object='dog', subject='man')
-ball_giver_kwargs(indirect_object='dog', subject='man', direct_object='ball')
-ball_giver_kwargs(subject='man', indirect_object='dog', direct_object='ball')
+giver_pos('man', 'ball', 'dog')
+giver_kwargs(subject='man', direct_object='ball', indirect_object='dog')
+giver_kwargs(direct_object='ball', indirect_object='dog', subject='man')
+giver_kwargs(indirect_object='dog', subject='man', direct_object='ball')
+giver_kwargs(subject='man', indirect_object='dog', direct_object='ball')
 
 # This does *not* print the same thing
-ball_giver_pos('ball', 'man', 'dog')
+giver_pos('ball', 'man', 'dog')
 ```
 
 Note how the positional one loses functionality but requires less typing. You
