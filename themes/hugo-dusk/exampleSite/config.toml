@@ -5,6 +5,7 @@ languageCode = "en-US"
 canonifyurls = true
 paginate = 3
 theme = "hugo-dusk"
+themesDir = "../.."
 enableRobotsTXT = true
 
 googleAnalytics = ""
@@ -29,6 +30,17 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+
 [author]
   name = ""
 
@@ -42,11 +54,4 @@ pygmentsCodeFences = true
   #gitlab = "gitlab id"
   twitter = "twitter id"
   #linkedin = "linkedin id"
-
-[params.colors]
-  # hugo-dusk colors
-  background = "#101010" # background color for the site
-  main = "#99cc66"
-  text = "#dbdbdb"
-  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
-  copyright = "#404040" # copyright text color
+  theme_colors = "default-dark"
