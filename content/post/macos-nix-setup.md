@@ -188,9 +188,9 @@ more:
 
 ### Good luck and have fun!
 
-I hope this guide was helpful! As I'm relatively new to Nix, feel free to contact me if
-there's something I got wrong or could have explained more clearly. Good luck and have fun
-with Nix!
+I hope this guide was helpful! Thanks to the Nix team for making such a cool package
+manager. As I'm relatively new to Nix, feel free to contact me if there's something I got
+wrong or could have explained more clearly. Good luck and have fun with Nix!
 
 
 [^catalina]: Catalina gets a lot of shade for its read-only root filesystem and signed
