@@ -5,12 +5,13 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 ## Features
 
 * Responsive minimalistic design
-* Configurable theme colors
+* Configurable theme colors (with custom css file)
 * Syntax highlight with builtin [Chroma](http://gohugo.io/content-management/syntax-highlighting/)
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
+* [Utterances](https://utteranc.es/) comments support
 * [Google analytics](https://www.google.com/analytics/) (async)
-* Configrable pagination for posts
+* Configurable pagination for posts
 * Lazy menu
 * Custom 404 page
 
@@ -43,10 +44,10 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
-# use Chroma for syntax highlight
-pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
-# enable syntax highlight for code blocks
-pygmentsCodeFences = true
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
 
 [[menu.main]]
   name = "Posts"
@@ -70,12 +71,8 @@ pygmentsCodeFences = true
   twitter = "twitter id"
   linkedin = "linkedin id"
   email = "myemail"
-
-[params.colors]
-  # hugo-dusk colors
-  background = "#101010" # background color for the site
-  main = "#99cc66"
-  text = "#dbdbdb"
-  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
-  copyright = "#404040" # copyright text color
+  theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
+  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
+  utterancesTheme="github-dark" # Default: github-dark
+  utterancesIssueTerm="pathname" # Default: pathname
 ~~~~
