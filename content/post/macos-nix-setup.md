@@ -149,7 +149,7 @@ affected.
 
 If you want to update the package database, you can run
 
-```nix
+```sh
 nix-channel --update
 ```
 
