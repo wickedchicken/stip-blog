@@ -98,7 +98,7 @@ eventual `sudo` call inside the script[^yeehaw]. You will have to do something e
 you're running Catalina[^catalina] or above.
 
 1. Install Nix:
-    * Pre-Catalina: `curl https://nixos.org/nix/install | sh` (I haven't tested this).
+    * Pre-Catalina: `curl -L https://nixos.org/nix/install | sh`
     * Catalina with a T2 chip: `sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume`
         (according to the site, "unecrypted" is a misnomer as the chip will encrypt it
         anyway).
@@ -111,7 +111,8 @@ you're running Catalina[^catalina] or above.
 
 2. Install `nix-darwin`: 
     ```sh
-    nix-build https://github.com/LnL7/nix-darwin/archive/master.tar.gz -A installer ./result/bin/darwin-installer
+    nix-build https://github.com/LnL7/nix-darwin/archive/master.tar.gz -A installer
+    ./result/bin/darwin-installer
     ```
 
     You should now have `darwin-rebuild` in your `PATH`.
