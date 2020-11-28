@@ -196,9 +196,11 @@ wrong or could have explained more clearly. Good luck and have fun with Nix!
 
 [^catalina]: Catalina gets a lot of shade for its read-only root filesystem and signed
     binaries, but I think it's a step forward for general purpose computing. What I object
-    to is that signed binaries must be signed with registered Apple developer accounts,
-    which cost money. It would be nice if that was a bit distributed, so anyone could sign
-    and Apple maintained a reputation database or something. I'm annoyed at Apple for
+    to is that signed binaries must be signed with registered Apple developer accounts to
+    distribute software, and these accounts cost money (anyone can run their own software
+    with the appropriate settings, but distributing software effectively needs an Apple
+    developer account). It would be nice if that was a bit distributed, so anyone could
+    sign and Apple maintained a reputation database or something. I'm annoyed at Apple for
     mixing good security and OS maintenance practices with total, walled-garden lockdown.
     Admittedly, the web has a lot of the [same security benefits][web], but we're not at a
     point yet where web apps can compete with native applications. Hopefully we'll get
