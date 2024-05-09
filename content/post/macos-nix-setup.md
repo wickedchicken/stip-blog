@@ -231,11 +231,11 @@ wrong or could have explained more clearly. Good luck and have fun with Nix!
 [install-sig]: https://nixos.org/guides/nix-pills/install-on-your-running-system.html#idm140737320801568
 [macports-vs-homebrew]: https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/
 [macports]: https://www.macports.org/
-[nix-cheatsheet]: https://nixos.wiki/wiki/Cheatsheet
+[nix-cheatsheet]: https://wiki.nixos.org/wiki/Cheatsheet
 [nix-darwin-explanation]: https://stackoverflow.com/questions/53335308/what-does-nix-darwin-provide
 [nix-darwin]: https://github.com/LnL7/nix-darwin
-[nix-ecosystem]: https://nixos.wiki/wiki/Nix_Ecosystem
-[nix-expression]: https://nixos.wiki/wiki/Nix_Expression_Language
+[nix-ecosystem]: https://wiki.nixos.org/wiki/Nix_Ecosystem
+[nix-expression]: https://wiki.nixos.org/wiki/Nix_Expression_Language
 [nix-lists]: https://nixos.org/guides/nix-pills/basics-of-language.html#idm140737320584496
 [nix-pills]: https://nixos.org/guides/nix-pills/index.html
 [nix-shell]: https://ghedam.at/15978/an-introduction-to-nix-shell
