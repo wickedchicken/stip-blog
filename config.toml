@@ -3,14 +3,13 @@ title = "Outer Haven"
 copyright = "Copyright (c) 2018 and later, all rights reserved. Theme based on <a href=\"https://github.com/gyorb/hugo-dusk\">hugo-dusk</a>."
 canonifyurls = true
 languageCode = "en-US"
-paginate = 3
 theme = "hugo-dusk"
+
+[pagination]
+  pagerSize = 10
 
 googleAnalytics = ""
 disqusShortname = ""
-
-[author]
-  name = "Mike Stipicevic"
 
 SectionPagesMenu = "main"
 
@@ -38,3 +37,10 @@ pygmentsCodeFences = true
 [params]
   github = "wickedchicken"
   twitter = "wickedchicken"
+  [params.author]
+    name = "Mike Stipicevic"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 3
