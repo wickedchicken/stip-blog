@@ -300,7 +300,8 @@ so forcing the important bits up front just seems helpful.
         print('hello!')
     else:
         print('goodbye!')
-    ``` you can start computing `(x + 4)` _before_ `y = 5 + 6`, so that the
+    ```
+    you can start computing `(x + 4)` _before_ `y = 5 + 6`, so that the
     answer is ready when the if statement needs to determine which `print`
     statement to execute. You're just rearranging when things execute to make
     sure there is as little downtime as possible.
