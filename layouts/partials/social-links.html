@@ -13,12 +13,16 @@
   <a href="https://gitlab.com/{{.}}" target="_blank"><div class="social-link">gl</div></a>
   {{end}}
 
-  {{with .Site.Params.twitter}}
-  <a href="https://twitter.com/{{.}}" target="_blank"><div class="social-link">twitter</div></a>
+  {{with .Site.Params.bluesky}}
+  <a href="https://bsky.app/profile/{{.}}" target="_blank"><div class="social-link">bluesky</div></a>
   {{end}}
 
   {{with .Site.Params.linkedin}}
-  <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">in</div></a>
+  <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">linkedin</div></a>
+  {{end}}
+
+  {{with .Site.Params.website}}
+  <a href="{{.}}" target="_blank"><div class="social-link">website</div></a>
   {{end}}
 
 </div>

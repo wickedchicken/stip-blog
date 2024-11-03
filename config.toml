@@ -36,7 +36,9 @@ pygmentsCodeFences = true
 
 [params]
   github = "wickedchicken"
-  twitter = "wickedchicken"
+  bluesky = "stip.bsky.social"
+  linkedin = "mikestipicevic"
+  website = "https://stipicevic.com"
   [params.author]
     name = "Mike Stipicevic"
 
