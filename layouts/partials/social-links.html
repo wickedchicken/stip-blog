@@ -1,5 +1,10 @@
 
 <div class="social-links-header">
+<span style="margin: 0.2em; font-size: 1.2em;">By Mike Stipicevic  <b>//</b></span>
+
+  {{with .Site.Params.website}}
+  <a href="{{.}}" target="_blank"><div class="social-link">website</div></a>
+  {{end}}
 
   {{with .Site.Params.email}}
   <a href="mailto:{{.}}"><div class="social-link">email</div></a>
@@ -21,8 +26,11 @@
   <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">linkedin</div></a>
   {{end}}
 
-  {{with .Site.Params.website}}
-  <a href="{{.}}" target="_blank"><div class="social-link">website</div></a>
-  {{end}}
+  <div class="social-link">
+  {{ with .OutputFormats.Get "rss" -}}
+    <a href="{{ .RelPermalink }}">rss</a>
+  {{ end }}
+  </div>
+
 
 </div>
