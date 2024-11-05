@@ -129,7 +129,7 @@ goals and work toward them. Here are some examples:
 * Understand what someone has angrily yelled at you in German[^yelled-at]
 * Watch a TV show or movie entirely in German
 * Read a news article entirely in German
-* Attend a party and speaking entirely in German
+* Attend a party and speak entirely in German
 * Spend an afternoon or entire day with someone who does not speak English
 * Angrily yell at someone in German[^yelling-at]
 * Write a lengthy email entirely in German
