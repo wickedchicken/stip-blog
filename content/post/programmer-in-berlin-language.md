@@ -428,7 +428,7 @@ when speaking English.
   appropriate. As an example, "That's something I am always
   doing" is incorrect[^vw], say "that's something I always do" instead.
 3. "Sew" is pronounced identically to "so," not "sue."
-4. "Clothes" sounds nearly identical to "close," and not "clo-thes." The "th" is unvoiced
+4. "Clothes" sounds nearly identical to "close,"[^american-clothes] and not "clo-thes." The "th" is unvoiced
   and barely audible. I found a [quick video][clothes-video] about it that might be helpful.
   I'm aware that "th" is very difficult to pronounce for German
   speakers, and will happily attempt to pronounce "_Brötchen_" for you in solidarity.
@@ -484,6 +484,9 @@ From here you can go to the [main page][main-page] or back to the
 [trout-en]: https://en.wikipedia.org/wiki/Rainbow_trout
 
 [trout-de]: https://de.wikipedia.org/wiki/Regenbogenforelle
+
+[^american-clothes]: At least in an American accent. Other accents pronounce the "th" a
+  bit more strongly.
 
 [donate-to-wikipedia]: https://donate.wikimedia.org/wiki/Ways_to_Give
 
