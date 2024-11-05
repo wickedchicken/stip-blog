@@ -287,13 +287,15 @@ language is difficult; you need to actively set yourself up for success.
     sounds like the second letter's long vowel in English. _Wein_ rhymes with "wine,"
     while _Wien_ rhymes with "green."
 * Pay attention to when German words are actually compound words, because the accent on
-    the syllables changes depending on that. For example, _Impressum_ has the accent on
+    the syllables changes depending on that. For example, _Impressum_ ("imprint") has the accent on
     _press_, while _Lufthansa_ has a strong accent on _Luft_ and a weak accent on
     _han_ (imagine pronouncing it as two separate words: _Luft_ _Hansa_). _Hoffentlich_
+    ("hopefully")
     has a strong accent on _hoff_ and a weak accent on _lich_.
 * Occasionally you'll encounter a few French words which are pronounced accordingly.
-    _Chance_ and _Regisseur_ are ones that will throw you off if you're not expecting it.
-* "Gel" is pronounced with a hard "g," such as in _Duschgel_ (shower gel).
+    _Chance_ ("chance") and _Regisseur_ ("film director") are ones that will throw
+    you off if you're not expecting it.
+* "Gel" is pronounced with a hard "g," such as in _Duschgel_ ("shower gel").
 * One of the hardest things for English speakers to pronounce is the German "R."
     There are a few [good][german-r-1] [videos][german-r-2] about this. The best way
     I can explain it is that the English "R" is made with the teeth, but the German
