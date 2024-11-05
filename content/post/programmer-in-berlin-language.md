@@ -429,7 +429,8 @@ when speaking English.
   doing" is incorrect[^vw], say "that's something I always do" instead.
 3. "Sew" is pronounced identically to "so," not "sue."
 4. "Clothes" sounds nearly identical to "close," and not "clo-thes." The "th" is unvoiced
-  and barely audible. I'm aware that "th" is very difficult to pronounce for German
+  and barely audible. I found a [quick video][clothes-video] about it that might be helpful.
+  I'm aware that "th" is very difficult to pronounce for German
   speakers, and will happily attempt to pronounce "_Brötchen_" for you in solidarity.
 5. "Berlin" is pronounced in English with the same stress on the second syllable as in
   German: "Ber-LIN," not "BER-lin." In [rare cases][berlin-stress] you might hear it
@@ -508,6 +509,8 @@ From here you can go to the [main page][main-page] or back to the
   "Adi Dassler" is completely foreign to us. Then again [Gary and Min][garmin] have been doing pretty well for themselves, so who am I to say anything?
 
 [hochdeutsch]: https://en.wikipedia.org/wiki/Standard_German
+
+[clothes-video]: https://www.youtube.com/shorts/dwq3tBc-aQ4
 
 [^high-german]: This isn't "high German" in the sense of "high Elves," but because
   the dialect is mainly derived from what people spoke high up in the Alps.

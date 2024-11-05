@@ -143,7 +143,7 @@ kilogram. Pretty cool!
 Washing machines in Europe electrically heat their water, which means there is far more
 precise temperature control than water taken from the building's hot water supply. Instead
 of "cold," "warm" and "hot" you have 30°C, 40°C, and 60°C. Luckily clothing sold in Europe
-tells you what temperature to wash it on the tag.
+tells you what temperature to wash it at on the tag.
 
 Dryers are relatively uncommon in Germany, and most people hang their wash on a line to dry.
 You can do this inside or outside, if the weather allows. Since fully soaked clothes would
@@ -614,7 +614,7 @@ below.
 
 #### Second-class _Flexpreis_
 
-The basic ticket is the second-class _Flexpreis_ (flexible-ticket price) ticket. This kind
+The basic ticket is the second-class _Flexpreis_ ("flexible-ticket price") ticket. This kind
 of ticket works like a
 public-transit ticket: just like a subway or bus ticket, with a _Flexpreis_ ticket you can
 take any train that day to your destination. Also like a subway or bus ticket, there is no
