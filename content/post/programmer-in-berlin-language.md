@@ -500,7 +500,7 @@ From here you can go to the [main page][main-page] or back to the
 
 [^vw]: This mistake is beautifully captured by Zonja Wöstendiek in a
   [VW ad][unpimp-your-ride]: "It's definitely sucking!" On an unrelated point, it's
-  infinitely funny that the canonical
+  infinitely funny that a canonical
   representation of what Americans think a modern German is like is played by
   [a Swede][peter-stormare].
 
