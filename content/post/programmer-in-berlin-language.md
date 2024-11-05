@@ -377,10 +377,11 @@ translation you need to be check that the translation and localization are actua
   making _Glubscher_ a perfect translation for Peeper.
 
 However, not every game can hit this level of quality. I just started playing No Man's
-Sky and decided to start out with German. The game told me I had several _kostenlose_
-inventory slots in my suit, which was clearly a translation of "free inventory slots."
-However, _kostenlos_ means "free" as in "no payment needed" instead of
-"open and available." I switched back to English after seeing that.
+Sky and decided to start out with German. The game wanted to tell me I had free inventory
+slots in my suit, but the German translation used _kostenlos_ instead of _verfügbar_.
+_Kostenlos_ means "free" as in "no payment needed," which is incorrect and even
+confusing if you're just starting in the game. _Verfügbar_ is the correct translation
+as it means "available." I switched back to English after seeing that.
 
 ## Things to read
 
