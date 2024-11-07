@@ -776,8 +776,9 @@ right of you, you have to slow down to see if anyone is coming and yield if anyo
 there. The only exceptions are if it's a "road with a curb" (meaning a driveway), a
 lesser class of road (a dirt road when you're on a paved one), or if you have a street
 sign telling you have right of way or are on a "priority road" (the most common being a
-yellow diamond inside a white diamond). This means that in a parking lot, if someone is
-arriving to the right of you, you have to yield.
+yellow diamond inside a white diamond). Until recently this rule even applied in
+parking lots, but that as of 2022 that is
+[no longer the case][adac-parking][^apple-the-golden].
 
 It's complicated enough driving through the city trying to figure out if the road to the
 right of you is a real road or a driveway, but there's another curveball thrown into the
@@ -1054,11 +1055,17 @@ have even better policies.
 
 [adfc-berlin]: https://berlin.adfc.de/
 
+[apple-the-golden]: https://github.com/Scotsguy
+
+[^apple-the-golden]: Thanks to [AppleTheGolden][apple-the-golden] for updating me on this!
+
 [erste-klasse]: https://web.archive.org/web/20230613062354/https://www.bahn.de/info/kleiner-fahrplanwechsel-juni-23
 
 [zugfinder]: https://www.zugfinder.net/en/stationboard-Berlin
 
 [omio]: https://www.omio.com/
+
+[adac-parking]: https://www.adac.de/news/urteil-rechts-vor-links-parkplatz/
 
 [lexit]: https://en.wiktionary.org/wiki/Lexit
 
