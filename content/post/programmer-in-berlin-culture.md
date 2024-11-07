@@ -836,7 +836,7 @@ One bright spot is that you often don't have to make an appointment to refill a
 prescription -- usually you can call the doctor's office, ask for a refill, and you can
 pick the prescription up when convenient. Sometimes they'll even mail it to you!
 
-### Krankschriebung
+### Krankschreibung
 
 With most non-freelancer jobs, if you get sick you're allowed to take off work for a few
 days, but on the third day you're required to go to a _Hausarzt_ and get
