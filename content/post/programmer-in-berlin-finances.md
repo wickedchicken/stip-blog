@@ -73,7 +73,7 @@ the helpful people on the support forums who explain, matter-of-factly, that thi
 normal and good. It's like going to a support counter at a bank and having a customer in
 line politely tell me to go screw myself. Luckily, after a few years, the issue resolved
 itself. Thanks Valve!
-- I have a US credit card with a billing address in address in Germany. In many cases this
+- I have a US credit card with a billing address in Germany. In many cases this
 is totally fine! However, if I book a flight with aa.com and try to use my card, I get all
 the way up to the address field. At this point, I'm dumped to americanairlines.de. Ok,
 fine, I'll just restart the process. Eventually, I get to payment, and the system detects

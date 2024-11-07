@@ -86,7 +86,7 @@ but it's not part of the daily conversation as much as the US government is to A
 Digging into that relationship a bit deeper, there is also a bit more skepticism of the EU
 than I expected when moving here. Brexit made this pretty clear from the right-wing side,
 but some on the left view the EU as some kind of banker's club where Germany and France
-get to tell smaller countries what to do. You can see this in the "[Lexit][lexit]" (crowd,
+get to tell smaller countries what to do. You can see this in the "[Lexit][lexit]" crowd,
 people
 who wanted the UK to leave the EU so it could enact more socialist policies without being
 hindered by the EU's neoliberal slant. Another example is the
