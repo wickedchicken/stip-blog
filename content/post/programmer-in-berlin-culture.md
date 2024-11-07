@@ -646,8 +646,8 @@ some kind of long-distance vacation or business trip. For some routes and times 
 it's not worth reserving a seat since it will almost certainly be empty, but if you're
 wrong you'll be standing in the aisle for 5 hours straight. Another annoyance is that the
 seat you pick may be reserved for part of your journey, meaning you'll have to shuffle
-around and find another one. Finally, there are the "_ggf. freigeben_" seats.
-_Ggf. freigeben_ (German for "lol, you thought this would be easy?") means that the
+around and find another one. Finally, there are the "_ggf. freigegeben_" seats.
+_Ggf. freigegeben_ (German for "lol, you thought this would be easy?") means that the
 seat may or may not be reserved, and they don't know due to technical reasons. If you sit
 there, you'll have to wait the entire ride to see if someone actually did reserve it or not.
 
