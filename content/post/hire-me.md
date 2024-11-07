@@ -9,7 +9,7 @@ draft: false
 Hello! I'm a software engineer looking for a new job in Berlin (or remote)!
 I have 15 years of professional experience in small, medium and large companies, and am
 looking forward to seeing how I can use that experience to help further your team's goals.
-I have listed more about about myself below.
+I have listed more about myself below.
 
 If I seem
 like a good fit, please contact me using one of the methods listed in the "contact"
